@@ -61,7 +61,7 @@ func TestWaitWithContextCancel(t *testing.T) {
 }
 
 func TestConcurrency(t *testing.T) {
-	limiter := New(100, 50)
+	limiter := New(1, 50)
 	defer limiter.Stop()
 
 	var wg sync.WaitGroup
