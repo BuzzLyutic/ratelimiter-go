@@ -213,6 +213,4 @@ Made with ❤️ and Go
 [⬆ Наверх](#-token-bucket-rate-limiter)
 
 </div>
-```
 
----
